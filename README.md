@@ -4,7 +4,7 @@ Deliverable web app created for Hack at UCI intern application.\
 Built using ReactJS.
 
 ## Live Preview
-WIP
+https://taesungh.github.io/hackuci-tech-deliverable
 
 ## Main Requirements
 * responsive mockup as defined in full requirements
@@ -23,4 +23,6 @@ WIP
 
 ## Authors and Acknowledgement
 Original instructions by Lasse Nordahl.\
-Deliverable created by Taesung Hwang.
+Deliverable created by Taesung Hwang.\
+Eye drawing created by Taesung Hwang.\
+Form stylings based off of Bootstrap 4.0
