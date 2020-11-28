@@ -5,16 +5,26 @@
 
 .App {
   min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
   background-image: linear-gradient(to right, var(--orange), var(--pinkish-red));
 }
 @media (orientation: portrait) {
   .App {
-    flex-direction: column;
     background-image: linear-gradient(to bottom, var(--orange), var(--pinkish-red));
+  }
+}
+
+.home {
+  min-height: 100vh;
+  margin: auto;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (orientation: portrait) {
+  .home {
+    flex-direction: column;
   }
 }
 
