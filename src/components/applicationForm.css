@@ -1,0 +1,33 @@
+.application-form {
+  margin: 2rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  width: calc(10vw + 20rem);
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 20px;
+}
+
+.form-label-group {
+  margin-bottom: 1rem;
+}
+
+textarea {
+  min-height: 15vh;
+  max-height: 50vh;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #ff9933;
+  border-color: #ff9933;
+  border-radius: .75rem;
+  padding: .375rem 1.75rem;
+}
+.btn-submit:hover {
+  color: #fff;
+  background-color: #ee8844;
+  border-color: #cc8833;
+}
+.btn-submit:focus {
+  box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5);
+}

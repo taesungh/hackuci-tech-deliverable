@@ -21,3 +21,8 @@
 img {
   pointer-events: none;
 }
+
+/* for Bootstrap like styles */
+*, ::after, ::before {
+  box-sizing: border-box;
+}

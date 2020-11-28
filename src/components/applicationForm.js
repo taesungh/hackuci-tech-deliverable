@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import "./form-input.css";
+import "./floating-labels.css";
+import "./applicationForm.css";
 
 
 const ApplicationForm = () => {
@@ -77,7 +80,11 @@ const ApplicationForm = () => {
           invalidText="Please enter a fun fact."
         />
 
-        <button type="submit" className="btn btn-submit">
+        <button
+          type="submit"
+          className="btn btn-submit"
+          style={{float: "right"}}
+        >
           Submit
         </button>
 
