@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import sendData from "../services/api_handler";
 import "./form-input.css";
 import "./floating-labels.css";
 import "./applicationForm.css";
@@ -19,9 +20,10 @@ const ApplicationForm = () => {
   const checkFunFact = (value) => value !== "";
 
 
-  // send form values as GET request to postman-echo server
-  async function sendData() {
-    console.log("sending form data")
+  const handleSuccess = (data) => {
+    console.log(data);
+    // show an alert for now
+    alert("your form was successfully submitted");
   }
 
   const handleSubmit = (e) => {
@@ -29,7 +31,22 @@ const ApplicationForm = () => {
 
     if (fullNameValid && emailValid && funFactValid) {
       // perform GET request to postman-echo api
-      sendData();
+      sendData({
+        name: fullName,
+        email: email,
+        funfact: funFact
+      }, (response) => {
+        handleSuccess(response.data);
+        // clear form values
+        setFullName("");
+        setEmail("");
+        setFunFact("");
+      });
+    } else {
+      // display appropriate invalid text
+      setFullNameValid(checkFullName(fullName));
+      setEmailValid(checkEmail(email));
+      setFunFactValid(checkFullName(funFact));
     }
   };
 
