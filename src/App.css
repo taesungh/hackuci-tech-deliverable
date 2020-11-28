@@ -17,3 +17,7 @@
     background-image: linear-gradient(to bottom, var(--orange), var(--pinkish-red));
   }
 }
+
+img {
+  pointer-events: none;
+}
