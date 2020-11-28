@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hackuci-tech-deliverable/static/css/main.02b141ee.chunk.css",
+    "main.js": "/hackuci-tech-deliverable/static/js/main.d9ea4af6.chunk.js",
+    "main.js.map": "/hackuci-tech-deliverable/static/js/main.d9ea4af6.chunk.js.map",
+    "runtime-main.js": "/hackuci-tech-deliverable/static/js/runtime-main.91eafc8e.js",
+    "runtime-main.js.map": "/hackuci-tech-deliverable/static/js/runtime-main.91eafc8e.js.map",
+    "static/js/2.ee2f93fe.chunk.js": "/hackuci-tech-deliverable/static/js/2.ee2f93fe.chunk.js",
+    "static/js/2.ee2f93fe.chunk.js.map": "/hackuci-tech-deliverable/static/js/2.ee2f93fe.chunk.js.map",
+    "static/js/3.b3e5e766.chunk.js": "/hackuci-tech-deliverable/static/js/3.b3e5e766.chunk.js",
+    "static/js/3.b3e5e766.chunk.js.map": "/hackuci-tech-deliverable/static/js/3.b3e5e766.chunk.js.map",
+    "index.html": "/hackuci-tech-deliverable/index.html",
+    "static/css/main.02b141ee.chunk.css.map": "/hackuci-tech-deliverable/static/css/main.02b141ee.chunk.css.map",
+    "static/js/2.ee2f93fe.chunk.js.LICENSE.txt": "/hackuci-tech-deliverable/static/js/2.ee2f93fe.chunk.js.LICENSE.txt",
+    "static/media/eye_0_post.8955faad.png": "/hackuci-tech-deliverable/static/media/eye_0_post.8955faad.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91eafc8e.js",
+    "static/js/2.ee2f93fe.chunk.js",
+    "static/css/main.02b141ee.chunk.css",
+    "static/js/main.d9ea4af6.chunk.js"
+  ]
+}
